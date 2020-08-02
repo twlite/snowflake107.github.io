@@ -1,0 +1,31 @@
+body {
+    background-color: #2c2d35 !important;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.dark {
+    background-color: #282c34 !important;
+}
+
+.card .btn {
+    width: 100%;
+}
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translate(0, -7px);
+    transition: 1s;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
