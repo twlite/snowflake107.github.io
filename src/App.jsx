@@ -17,7 +17,7 @@ function App() {
           <img src={logo} className="logo mb-5" alt="logo" draggable="false" />
         </div>
         <h1 className="text-center">Snowflake</h1>
-        <p className="text-center">Created with React</p>
+        <p className="text-center">I create random things</p>
         <div className="dropdown-divider"></div>
         <div className="d-flex align-items-center justify-content-center mt-4">
           <Button variant="info" className="rounded mb-3 mr-3" href="https://discord.gg/2SUybzb" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ function App() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="info">View on NPM</Button>
+              <Button variant="info" href="https://npmjs.com/package/discord-ytdl-core" target="_blank" rel="noopener noreferrer">View on NPM</Button>
             </Card.Footer>
           </Card>
 
@@ -57,7 +57,7 @@ function App() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="info">View on NPM</Button>
+              <Button variant="info" href="https://npmjs.com/package/canvacord" target="_blank" rel="noopener noreferrer">View on NPM</Button>
             </Card.Footer>
           </Card>
 
@@ -70,7 +70,7 @@ function App() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <Button variant="info">View on NPM</Button>
+              <Button variant="info" href="https://npmjs.com/package/quickmongo" target="_blank" rel="noopener noreferrer">View on NPM</Button>
             </Card.Footer>
           </Card>
 
