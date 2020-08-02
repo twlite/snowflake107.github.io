@@ -19,7 +19,6 @@ function App() {
         <meta property="og:title" content="Snowflake" />
         <meta property="og:image" content={logo} />
       </MetaTags>
-      <div className="content"> Some Content </div>
     </div>
     <div className="container">
       <div className="jumbotron bg-transparent dark text-white mt-5">
