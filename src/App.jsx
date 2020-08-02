@@ -8,18 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import MetaTags from 'react-meta-tags';
 
 function App() {
   return (
-    <div className="wrapper">
-      <MetaTags>
-        <title>Snowflake</title>
-        <meta name="description" content="Hello, my name is Snowflake." />
-        <meta property="og:title" content="Snowflake" />
-        <meta property="og:image" content={logo} />
-      </MetaTags>
-    </div>
     <div className="container">
       <div className="jumbotron bg-transparent dark text-white mt-5">
         <div className="d-flex align-items-center justify-content-center">
